@@ -48,6 +48,7 @@ Some general directions for PDL-Tiny (and PDL:NG) implementation:
   * Propose using the [C Object System (COS)](https://github.com/CObjectSystem/COS).
 6. Improved types support
   * All standard atomic types (NumPy and Python set as a start)
+  * All [OenGL data types](https://www.opengl.org/wiki/OpenGL_Type)
   * Support N-D arrays of structures
   * Support more flexible indexing (e.g. strings, field names,...)
   * Support metadata for objects, and dimensions/axes:
